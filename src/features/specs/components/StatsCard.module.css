@@ -1,0 +1,49 @@
+.card {
+  background-color: var(--color-surface);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid var(--color-divider);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.label {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.value {
+  font-size: 1.875rem;
+  font-weight: 800;
+  color: var(--color-text-main);
+  letter-spacing: -0.025em;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.description {
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+}
+
+.trendUp {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-success);
+}
+
+.trendDown {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-error);
+}
